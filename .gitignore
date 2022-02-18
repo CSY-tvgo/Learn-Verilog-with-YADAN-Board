@@ -1,0 +1,9 @@
+*
+!*/
+!*.gitignore
+!*.md
+!*.v
+!*.al
+!*.adc
+!*.xdc
+!*.bit

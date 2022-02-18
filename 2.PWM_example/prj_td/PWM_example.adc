@@ -1,0 +1,4 @@
+set_pin_assignment	{ clk_in }	{ LOCATION = P34; }
+set_pin_assignment	{ pause_n }	{ LOCATION = P51; }
+set_pin_assignment	{ pwm_out }	{ LOCATION = P23; }
+

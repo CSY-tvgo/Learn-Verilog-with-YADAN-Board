@@ -1,2 +1,3 @@
 # Learn-Verilog-with-YADAN-Board
-Some examples of using Verilog to implement some simple digital designs on YADAN Board.
+
+The README will be written some days later.  

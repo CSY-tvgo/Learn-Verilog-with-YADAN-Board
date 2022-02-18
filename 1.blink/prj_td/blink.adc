@@ -1,0 +1,9 @@
+set_pin_assignment	{ BUTTON_A }	{ LOCATION = P51; }
+set_pin_assignment	{ BUTTON_B }	{ LOCATION = P50; }
+set_pin_assignment	{ LED_A }	{ LOCATION = P23; }
+set_pin_assignment	{ LED_B }	{ LOCATION = P8; }
+
+
+
+
+
