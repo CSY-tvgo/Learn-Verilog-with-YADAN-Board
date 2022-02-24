@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project Version="1" Path="E:/TD_Projects/2.PWM_example/prj_td">
+<Project Version="1" Path="C:/Users/24479/Documents/GitHub/Learn-Verilog-with-YADAN-Board/2.PWM_example/prj_td">
     <Project_Created_Time></Project_Created_Time>
     <TD_Version>5.0.29524</TD_Version>
     <UCode>00000000</UCode>
@@ -72,7 +72,7 @@
     <Configurations>
     </Configurations>
     <Project_Settings>
-        <Step_Last_Change>2022-02-18 18:49:41.605</Step_Last_Change>
+        <Step_Last_Change>2022-02-21 23:25:02.375</Step_Last_Change>
         <Current_Step>60</Current_Step>
         <Step_Status>true</Step_Status>
     </Project_Settings>

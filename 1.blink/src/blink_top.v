@@ -7,4 +7,3 @@ module blink_top(input BUTTON_A,
     assign LED_B = BUTTON_B;
     
 endmodule
-    

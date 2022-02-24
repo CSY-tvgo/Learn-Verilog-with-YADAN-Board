@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project Version="1" Path="E:/TD_Projects/1.blink/prj_td">
-    <Project_Created_Time>2022-02-14 14:31:58</Project_Created_Time>
+<Project Version="1" Path="C:/Users/24479/Documents/GitHub/Learn-Verilog-with-YADAN-Board/1.blink/prj_td">
+    <Project_Created_Time></Project_Created_Time>
     <TD_Version>5.0.29524</TD_Version>
     <UCode>00000000</UCode>
     <Name>blink</Name>
@@ -48,7 +48,7 @@
     <Configurations>
     </Configurations>
     <Project_Settings>
-        <Step_Last_Change>2022-02-14 14:32:04.600</Step_Last_Change>
+        <Step_Last_Change>2022-02-18 22:22:07.053</Step_Last_Change>
         <Current_Step>60</Current_Step>
         <Step_Status>true</Step_Status>
     </Project_Settings>

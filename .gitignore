@@ -3,6 +3,8 @@
 !*.gitignore
 !*.md
 !*.v
+!*.vhdl
+!*.ipc
 !*.al
 !*.adc
 !*.xdc
