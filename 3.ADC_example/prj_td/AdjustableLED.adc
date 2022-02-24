@@ -1,0 +1,3 @@
+set_pin_assignment	{ CLK_24MHz }	{ LOCATION = P34; }
+set_pin_assignment	{ LED }	{ LOCATION = P23; }
+
