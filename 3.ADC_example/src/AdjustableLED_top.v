@@ -13,7 +13,7 @@ module AdjustableLED_top (input CLK_24MHz,
     PWM_module #(8) PWM_module_0(
     .clk_in (CLK_24MHz),
     .en (1'b1),
-    .duty_cycle (dout[11: 4]),   // 取高 8 位
+    .duty_cycle (dout[11: 4]),   // 传入 ADC 转换结果的高 8 位
     .pwm_out (LED)
     );
     
