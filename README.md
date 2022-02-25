@@ -10,3 +10,5 @@ This repository demonstrates some sample code for the series of tutorials **Lear
 
 ## About YADAN  
 https://github.com/CSY-tvgo/YADAN-Docs  
+
+[![](https://github.com/CSY-tvgo/YADAN-Docs/raw/main/docs/source/imgs/img_00_01.jpg)](http://docs.yadanboard.com/)  
