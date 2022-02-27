@@ -6,7 +6,7 @@ module AdjustableLED_top (input CLK_24MHz,
     wire [11: 0] dout;
     
     ADC_drv ADC_drv_0(
-    .CLK_24MHz(CLK_24MHz),         // 工作时钟，最大只能 16 MHz
+    .CLK_24MHz(CLK_24MHz),
     .dout(dout)                    // 转换结果
     );
     
