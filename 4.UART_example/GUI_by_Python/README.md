@@ -8,5 +8,5 @@ Requirements:
 + [pySerial](https://pythonhosted.org/pyserial/)  
 
 Preview:  
-![](./ADC_plot-preview-screenshot.gif)  
 ![](./ADC_plot-preview-video.gif)  
+![](./ADC_plot-preview-screenshot.gif)  
