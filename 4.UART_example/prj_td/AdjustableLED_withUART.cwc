@@ -1,0 +1,50 @@
+<chipwatcher project_name="AdjustableLED_withUART" bit_file="AdjustableLED_withUART.bit" bid_file="AdjustableLED_withUART_inst.bid" chip_name="EG4S20NG88">
+	<instance name="auto_chipwatcher_0" id="0" enabled="yes">
+		<clock clk_name="CLK_24MHz" polarity="posedge"/>
+		<config bram_name="auto_chipwatcher_0_logicbram" sample_depth="1024"/>
+		<signal_vec>
+			<trigger_nets>
+				<net name="dout[10]"/>
+				<net name="dout[11]"/>
+				<net name="dout[4]"/>
+				<net name="dout[5]"/>
+				<net name="dout[6]"/>
+				<net name="dout[7]"/>
+				<net name="dout[8]"/>
+				<net name="dout[9]"/>
+			</trigger_nets>
+			<data_nets>
+				<net name="dout[10]"/>
+				<net name="dout[11]"/>
+				<net name="dout[4]"/>
+				<net name="dout[5]"/>
+				<net name="dout[6]"/>
+				<net name="dout[7]"/>
+				<net name="dout[8]"/>
+				<net name="dout[9]"/>
+			</data_nets>
+			<watcher_nodes>
+				<bus name="dout" radix="undec" state="collapse" op="dont_care">
+					<net name="dout[11]"/>
+					<net name="dout[10]"/>
+					<net name="dout[9]"/>
+					<net name="dout[8]"/>
+					<net name="dout[7]"/>
+					<net name="dout[6]"/>
+					<net name="dout[5]"/>
+					<net name="dout[4]"/>
+				</bus>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_chipwatcher_0_trigger" position="pre">
+			<condition level="1" enabled="yes" type="basic_and">
+				dout[10] == low && dout[11] == low && dout[4] == low && dout[5] == low && dout[6] == low && dout[7] == low && dout[8] == low && dout[9] == low
+			</condition>
+			<log>
+				<data name="log: 2022/ 3/ 7 17:10:26" trigger_en="yes" trigger_pos="22" sample_num="64">
+					00000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+				</data>
+			</log>
+		</trigger>
+	</instance>
+</chipwatcher>

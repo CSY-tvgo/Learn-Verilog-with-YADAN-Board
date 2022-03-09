@@ -4,8 +4,10 @@
 !*.md
 !*.v
 !*.vhdl
-!*.ipc
 !*.al
 !*.adc
 !*.xdc
 !*.bit
+!*.ipc
+!*.cwc
+!*.py
