@@ -8,4 +8,4 @@ Requirements:
 + [pySerial](https://pythonhosted.org/pyserial/)
 
 Preview:  
-![](https://karbon-image-hosting-1256210882.cos.ap-nanjing.myqcloud.com/upload_by_picgo/202203091729740.gif)
+![](./ADC_plot-preview.gif)

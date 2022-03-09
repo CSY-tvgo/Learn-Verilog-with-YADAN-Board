@@ -11,3 +11,5 @@
 !*.ipc
 !*.cwc
 !*.py
+!*.jpg
+!*.gif
