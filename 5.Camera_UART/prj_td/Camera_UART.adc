@@ -1,0 +1,22 @@
+set_pin_assignment	{ clk_24m }	{ LOCATION = P34; }
+
+set_pin_assignment	{ cam_data[0] }	{ LOCATION = P32; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ cam_data[1] }	{ LOCATION = P30; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ cam_data[2] }	{ LOCATION = P29; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ cam_data[3] }	{ LOCATION = P31; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ cam_data[4] }	{ LOCATION = P33; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ cam_data[5] }	{ LOCATION = P37; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ cam_data[6] }	{ LOCATION = P38; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ cam_data[7] }	{ LOCATION = P40; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ cam_href }	{ LOCATION = P41; }
+set_pin_assignment	{ cam_pclk }	{ LOCATION = P35; }
+set_pin_assignment	{ cam_pwdn }	{ LOCATION = P42; }
+set_pin_assignment	{ cam_rst }	    { LOCATION = P47; }
+set_pin_assignment	{ cam_soic }	{ LOCATION = P48; PULLTYPE = PULLUP;}
+set_pin_assignment	{ cam_soid }	{ LOCATION = P49; }
+set_pin_assignment	{ cam_vsync }	{ LOCATION = P45; }
+set_pin_assignment	{ cam_xclk }	{ LOCATION = P39; }
+
+set_pin_assignment	{ rst_n }	{ LOCATION = P50; }
+
+set_pin_assignment	{ TX_USB }	{ LOCATION = P52; }

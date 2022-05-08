@@ -1,0 +1,289 @@
+<chipwatcher project_name="Camera_UART" bit_file="Camera_UART.bit" bid_file="Camera_UART_inst.bid" chip_name="EG4S20NG88">
+	<instance name="auto_chipwatcher_0" id="0" enabled="yes">
+		<clock clk_name="u_UART_img_TX/emit" polarity="posedge"/>
+		<config bram_name="auto_chipwatcher_0_logicbram" sample_depth="64"/>
+		<signal_vec>
+			<trigger_nets>
+				<net name="cam_data[0]"/>
+				<net name="cam_data[1]"/>
+				<net name="cam_data[2]"/>
+				<net name="cam_data[3]"/>
+				<net name="cam_data[4]"/>
+				<net name="cam_data[5]"/>
+				<net name="cam_data[6]"/>
+				<net name="cam_data[7]"/>
+				<net name="cam_wlock"/>
+				<net name="camera_addr[0]"/>
+				<net name="camera_addr[10]"/>
+				<net name="camera_addr[11]"/>
+				<net name="camera_addr[12]"/>
+				<net name="camera_addr[13]"/>
+				<net name="camera_addr[14]"/>
+				<net name="camera_addr[15]"/>
+				<net name="camera_addr[1]"/>
+				<net name="camera_addr[2]"/>
+				<net name="camera_addr[3]"/>
+				<net name="camera_addr[4]"/>
+				<net name="camera_addr[5]"/>
+				<net name="camera_addr[6]"/>
+				<net name="camera_addr[7]"/>
+				<net name="camera_addr[8]"/>
+				<net name="camera_addr[9]"/>
+				<net name="camera_wrdat[10]"/>
+				<net name="camera_wrdat[14]"/>
+				<net name="camera_wrdat[15]"/>
+				<net name="camera_wrdat[3]"/>
+				<net name="camera_wrdat[4]"/>
+				<net name="camera_wrdat[9]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[10]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[14]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[15]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[3]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[4]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[9]"/>
+				<net name="u_UART_img_TX/pixel_y[0]"/>
+				<net name="u_UART_img_TX/pixel_y[10]"/>
+				<net name="u_UART_img_TX/pixel_y[11]"/>
+				<net name="u_UART_img_TX/pixel_y[12]"/>
+				<net name="u_UART_img_TX/pixel_y[13]"/>
+				<net name="u_UART_img_TX/pixel_y[14]"/>
+				<net name="u_UART_img_TX/pixel_y[15]"/>
+				<net name="u_UART_img_TX/pixel_y[1]"/>
+				<net name="u_UART_img_TX/pixel_y[2]"/>
+				<net name="u_UART_img_TX/pixel_y[3]"/>
+				<net name="u_UART_img_TX/pixel_y[4]"/>
+				<net name="u_UART_img_TX/pixel_y[5]"/>
+				<net name="u_UART_img_TX/pixel_y[6]"/>
+				<net name="u_UART_img_TX/pixel_y[7]"/>
+				<net name="u_UART_img_TX/pixel_y[8]"/>
+				<net name="u_UART_img_TX/pixel_y[9]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[0]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[1]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[2]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[3]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[4]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[5]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[6]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[7]"/>
+				<net name="u_camera_reader/current_pixel[10]"/>
+				<net name="u_camera_reader/current_pixel[14]"/>
+				<net name="u_camera_reader/current_pixel[15]"/>
+				<net name="u_camera_reader/current_pixel[3]"/>
+				<net name="u_camera_reader/current_pixel[4]"/>
+				<net name="u_camera_reader/current_pixel[9]"/>
+				<net name="uart_rdaddr[0]"/>
+				<net name="uart_rdaddr[10]"/>
+				<net name="uart_rdaddr[11]"/>
+				<net name="uart_rdaddr[12]"/>
+				<net name="uart_rdaddr[13]"/>
+				<net name="uart_rdaddr[14]"/>
+				<net name="uart_rdaddr[15]"/>
+				<net name="uart_rdaddr[1]"/>
+				<net name="uart_rdaddr[2]"/>
+				<net name="uart_rdaddr[3]"/>
+				<net name="uart_rdaddr[4]"/>
+				<net name="uart_rdaddr[5]"/>
+				<net name="uart_rdaddr[6]"/>
+				<net name="uart_rdaddr[7]"/>
+				<net name="uart_rdaddr[8]"/>
+				<net name="uart_rdaddr[9]"/>
+			</trigger_nets>
+			<data_nets>
+				<net name="cam_data[0]"/>
+				<net name="cam_data[1]"/>
+				<net name="cam_data[2]"/>
+				<net name="cam_data[3]"/>
+				<net name="cam_data[4]"/>
+				<net name="cam_data[5]"/>
+				<net name="cam_data[6]"/>
+				<net name="cam_data[7]"/>
+				<net name="cam_wlock"/>
+				<net name="camera_addr[0]"/>
+				<net name="camera_addr[10]"/>
+				<net name="camera_addr[11]"/>
+				<net name="camera_addr[12]"/>
+				<net name="camera_addr[13]"/>
+				<net name="camera_addr[14]"/>
+				<net name="camera_addr[15]"/>
+				<net name="camera_addr[1]"/>
+				<net name="camera_addr[2]"/>
+				<net name="camera_addr[3]"/>
+				<net name="camera_addr[4]"/>
+				<net name="camera_addr[5]"/>
+				<net name="camera_addr[6]"/>
+				<net name="camera_addr[7]"/>
+				<net name="camera_addr[8]"/>
+				<net name="camera_addr[9]"/>
+				<net name="camera_wrdat[10]"/>
+				<net name="camera_wrdat[14]"/>
+				<net name="camera_wrdat[15]"/>
+				<net name="camera_wrdat[3]"/>
+				<net name="camera_wrdat[4]"/>
+				<net name="camera_wrdat[9]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[10]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[14]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[15]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[3]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[4]"/>
+				<net name="u_UART_img_TX/img_rddat_buf[9]"/>
+				<net name="u_UART_img_TX/pixel_y[0]"/>
+				<net name="u_UART_img_TX/pixel_y[10]"/>
+				<net name="u_UART_img_TX/pixel_y[11]"/>
+				<net name="u_UART_img_TX/pixel_y[12]"/>
+				<net name="u_UART_img_TX/pixel_y[13]"/>
+				<net name="u_UART_img_TX/pixel_y[14]"/>
+				<net name="u_UART_img_TX/pixel_y[15]"/>
+				<net name="u_UART_img_TX/pixel_y[1]"/>
+				<net name="u_UART_img_TX/pixel_y[2]"/>
+				<net name="u_UART_img_TX/pixel_y[3]"/>
+				<net name="u_UART_img_TX/pixel_y[4]"/>
+				<net name="u_UART_img_TX/pixel_y[5]"/>
+				<net name="u_UART_img_TX/pixel_y[6]"/>
+				<net name="u_UART_img_TX/pixel_y[7]"/>
+				<net name="u_UART_img_TX/pixel_y[8]"/>
+				<net name="u_UART_img_TX/pixel_y[9]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[0]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[1]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[2]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[3]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[4]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[5]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[6]"/>
+				<net name="u_UART_img_TX/u_UART_TX/data_buffer[7]"/>
+				<net name="u_camera_reader/current_pixel[10]"/>
+				<net name="u_camera_reader/current_pixel[14]"/>
+				<net name="u_camera_reader/current_pixel[15]"/>
+				<net name="u_camera_reader/current_pixel[3]"/>
+				<net name="u_camera_reader/current_pixel[4]"/>
+				<net name="u_camera_reader/current_pixel[9]"/>
+				<net name="uart_rdaddr[0]"/>
+				<net name="uart_rdaddr[10]"/>
+				<net name="uart_rdaddr[11]"/>
+				<net name="uart_rdaddr[12]"/>
+				<net name="uart_rdaddr[13]"/>
+				<net name="uart_rdaddr[14]"/>
+				<net name="uart_rdaddr[15]"/>
+				<net name="uart_rdaddr[1]"/>
+				<net name="uart_rdaddr[2]"/>
+				<net name="uart_rdaddr[3]"/>
+				<net name="uart_rdaddr[4]"/>
+				<net name="uart_rdaddr[5]"/>
+				<net name="uart_rdaddr[6]"/>
+				<net name="uart_rdaddr[7]"/>
+				<net name="uart_rdaddr[8]"/>
+				<net name="uart_rdaddr[9]"/>
+			</data_nets>
+			<watcher_nodes>
+				<bus name="cam_data" radix="hex" state="collapse" op="dont_care">
+					<net name="cam_data[7]"/>
+					<net name="cam_data[6]"/>
+					<net name="cam_data[5]"/>
+					<net name="cam_data[4]"/>
+					<net name="cam_data[3]"/>
+					<net name="cam_data[2]"/>
+					<net name="cam_data[1]"/>
+					<net name="cam_data[0]"/>
+				</bus>
+				<bus name="camera_addr" radix="hex" state="collapse" op="dont_care">
+					<net name="camera_addr[15]"/>
+					<net name="camera_addr[14]"/>
+					<net name="camera_addr[13]"/>
+					<net name="camera_addr[12]"/>
+					<net name="camera_addr[11]"/>
+					<net name="camera_addr[10]"/>
+					<net name="camera_addr[9]"/>
+					<net name="camera_addr[8]"/>
+					<net name="camera_addr[7]"/>
+					<net name="camera_addr[6]"/>
+					<net name="camera_addr[5]"/>
+					<net name="camera_addr[4]"/>
+					<net name="camera_addr[3]"/>
+					<net name="camera_addr[2]"/>
+					<net name="camera_addr[1]"/>
+					<net name="camera_addr[0]"/>
+				</bus>
+				<bus name="camera_wrdat" radix="hex" state="collapse" op="dont_care">
+					<net name="camera_wrdat[15]"/>
+					<net name="camera_wrdat[14]"/>
+					<net name="camera_wrdat[10]"/>
+					<net name="camera_wrdat[9]"/>
+					<net name="camera_wrdat[4]"/>
+					<net name="camera_wrdat[3]"/>
+				</bus>
+				<bus name="uart_rdaddr" radix="hex" state="collapse" op="dont_care">
+					<net name="uart_rdaddr[15]"/>
+					<net name="uart_rdaddr[14]"/>
+					<net name="uart_rdaddr[13]"/>
+					<net name="uart_rdaddr[12]"/>
+					<net name="uart_rdaddr[11]"/>
+					<net name="uart_rdaddr[10]"/>
+					<net name="uart_rdaddr[9]"/>
+					<net name="uart_rdaddr[8]"/>
+					<net name="uart_rdaddr[7]"/>
+					<net name="uart_rdaddr[6]"/>
+					<net name="uart_rdaddr[5]"/>
+					<net name="uart_rdaddr[4]"/>
+					<net name="uart_rdaddr[3]"/>
+					<net name="uart_rdaddr[2]"/>
+					<net name="uart_rdaddr[1]"/>
+					<net name="uart_rdaddr[0]"/>
+				</bus>
+				<bus name="u_UART_img_TX/u_UART_TX/data_buffer" radix="hex" state="collapse" op="dont_care">
+					<net name="u_UART_img_TX/u_UART_TX/data_buffer[7]"/>
+					<net name="u_UART_img_TX/u_UART_TX/data_buffer[6]"/>
+					<net name="u_UART_img_TX/u_UART_TX/data_buffer[5]"/>
+					<net name="u_UART_img_TX/u_UART_TX/data_buffer[4]"/>
+					<net name="u_UART_img_TX/u_UART_TX/data_buffer[3]"/>
+					<net name="u_UART_img_TX/u_UART_TX/data_buffer[2]"/>
+					<net name="u_UART_img_TX/u_UART_TX/data_buffer[1]"/>
+					<net name="u_UART_img_TX/u_UART_TX/data_buffer[0]"/>
+				</bus>
+				<bus name="u_camera_reader/current_pixel" radix="hex" state="collapse" op="dont_care">
+					<net name="u_camera_reader/current_pixel[15]"/>
+					<net name="u_camera_reader/current_pixel[14]"/>
+					<net name="u_camera_reader/current_pixel[10]"/>
+					<net name="u_camera_reader/current_pixel[9]"/>
+					<net name="u_camera_reader/current_pixel[4]"/>
+					<net name="u_camera_reader/current_pixel[3]"/>
+				</bus>
+				<bus name="u_UART_img_TX/img_rddat_buf" radix="hex" state="collapse" op="dont_care">
+					<net name="u_UART_img_TX/img_rddat_buf[15]"/>
+					<net name="u_UART_img_TX/img_rddat_buf[14]"/>
+					<net name="u_UART_img_TX/img_rddat_buf[10]"/>
+					<net name="u_UART_img_TX/img_rddat_buf[9]"/>
+					<net name="u_UART_img_TX/img_rddat_buf[4]"/>
+					<net name="u_UART_img_TX/img_rddat_buf[3]"/>
+				</bus>
+				<bus name="u_UART_img_TX/pixel_y" radix="hex" state="collapse" op="dont_care">
+					<net name="u_UART_img_TX/pixel_y[15]"/>
+					<net name="u_UART_img_TX/pixel_y[14]"/>
+					<net name="u_UART_img_TX/pixel_y[13]"/>
+					<net name="u_UART_img_TX/pixel_y[12]"/>
+					<net name="u_UART_img_TX/pixel_y[11]"/>
+					<net name="u_UART_img_TX/pixel_y[10]"/>
+					<net name="u_UART_img_TX/pixel_y[9]"/>
+					<net name="u_UART_img_TX/pixel_y[8]"/>
+					<net name="u_UART_img_TX/pixel_y[7]"/>
+					<net name="u_UART_img_TX/pixel_y[6]"/>
+					<net name="u_UART_img_TX/pixel_y[5]"/>
+					<net name="u_UART_img_TX/pixel_y[4]"/>
+					<net name="u_UART_img_TX/pixel_y[3]"/>
+					<net name="u_UART_img_TX/pixel_y[2]"/>
+					<net name="u_UART_img_TX/pixel_y[1]"/>
+					<net name="u_UART_img_TX/pixel_y[0]"/>
+				</bus>
+				<net name="cam_wlock" op="equal"/>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_chipwatcher_0_trigger" position="pre">
+			<condition level="1" enabled="yes" type="basic_and">
+				cam_data[0] == low && cam_data[1] == low && cam_data[2] == low && cam_data[3] == low && cam_data[4] == low && cam_data[5] == low && cam_data[6] == low && cam_data[7] == low && cam_wlock == any && camera_addr[0] == low && camera_addr[10] == low && camera_addr[11] == low && camera_addr[12] == low && camera_addr[13] == low && camera_addr[14] == low && camera_addr[15] == low && camera_addr[1] == low && camera_addr[2] == low && camera_addr[3] == low && camera_addr[4] == low && camera_addr[5] == low && camera_addr[6] == low && camera_addr[7] == low && camera_addr[8] == low && camera_addr[9] == low && camera_wrdat[10] == low && camera_wrdat[14] == low && camera_wrdat[15] == low && camera_wrdat[3] == low && camera_wrdat[4] == low && camera_wrdat[9] == low && u_UART_img_TX/img_rddat_buf[10] == low && u_UART_img_TX/img_rddat_buf[14] == low && u_UART_img_TX/img_rddat_buf[15] == low && u_UART_img_TX/img_rddat_buf[3] == low && u_UART_img_TX/img_rddat_buf[4] == low && u_UART_img_TX/img_rddat_buf[9] == low && u_UART_img_TX/pixel_y[0] == low && u_UART_img_TX/pixel_y[10] == low && u_UART_img_TX/pixel_y[11] == low && u_UART_img_TX/pixel_y[12] == low && u_UART_img_TX/pixel_y[13] == low && u_UART_img_TX/pixel_y[14] == low && u_UART_img_TX/pixel_y[15] == low && u_UART_img_TX/pixel_y[1] == low && u_UART_img_TX/pixel_y[2] == low && u_UART_img_TX/pixel_y[3] == low && u_UART_img_TX/pixel_y[4] == low && u_UART_img_TX/pixel_y[5] == low && u_UART_img_TX/pixel_y[6] == low && u_UART_img_TX/pixel_y[7] == low && u_UART_img_TX/pixel_y[8] == low && u_UART_img_TX/pixel_y[9] == low && u_UART_img_TX/u_UART_TX/data_buffer[0] == low && u_UART_img_TX/u_UART_TX/data_buffer[1] == low && u_UART_img_TX/u_UART_TX/data_buffer[2] == low && u_UART_img_TX/u_UART_TX/data_buffer[3] == low && u_UART_img_TX/u_UART_TX/data_buffer[4] == low && u_UART_img_TX/u_UART_TX/data_buffer[5] == low && u_UART_img_TX/u_UART_TX/data_buffer[6] == low && u_UART_img_TX/u_UART_TX/data_buffer[7] == low && u_camera_reader/current_pixel[10] == low && u_camera_reader/current_pixel[14] == low && u_camera_reader/current_pixel[15] == low && u_camera_reader/current_pixel[3] == low && u_camera_reader/current_pixel[4] == low && u_camera_reader/current_pixel[9] == low && uart_rdaddr[0] == low && uart_rdaddr[10] == low && uart_rdaddr[11] == low && uart_rdaddr[12] == low && uart_rdaddr[13] == low && uart_rdaddr[14] == low && uart_rdaddr[15] == low && uart_rdaddr[1] == low && uart_rdaddr[2] == low && uart_rdaddr[3] == low && uart_rdaddr[4] == low && uart_rdaddr[5] == low && uart_rdaddr[6] == low && uart_rdaddr[7] == low && uart_rdaddr[8] == low && uart_rdaddr[9] == low
+			</condition>
+			<log>
+				<data name="log: 2022/ 5/ 5 22:39:59" trigger_en="yes" trigger_pos="22" sample_num="64">
+					11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111011111100111111101111001111111111111111111101111110111111101111101111110011111100111110111111111111111111111110000100000001000001000000110000001100001100000010000000100000100111110000000011111011111110111111011111100000001011111110111111111110000000000000011111110011111101111101000000100000001000000010000111111111111110000000000000001100000111111111111111111111000XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX00001000000010000010000001100000011000011000000110000001100001101111111111111111111111111111111111000000000000000000000000000000111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000001000000100000000100001100000000000000110000100000010000000100000100000000000000100000000000001100000011000011011110000000001111100000000111111101000001111111010000000111110100000011111111111110000000010000001011110111111110000000010000101000000000000000000111111111111111101111001111110100000011000010000000111111110000001111111100000001111100000000110000000011111001111000000001000001111111101111111000001000000001000000011111111000011111111100000000000001111111100000011111111100000000000001100000000000001111111111111111111110000000000000001111111111111111111111111111111110111111001111111011111011111111111111111111011000001111111011111100000000000000010000110000001011111110111110000001000000010000000000000000000011000011000000110000001100000000000111111111000001111111110000001111111011111111000000101111111000001111111011111011111110000000101111101111111111111110111101111111111111111111111111111111111111111111111111111111111111111110000000000000000011000000000000000000000000000000000000000011111111110000000000110000000000111111111111111111111111111111111100000000000000000011110000000011111111111111111111111111111111111111111111001100000000000000000000000000000000000000000000000011111000000000000000001100000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010101010101010101011101010101010101010101010101010101010101011110101010111011111011011111111111101010101111101010101010101011000101010110111010101010000000001010101010101010100000001010000101101010100000000000110000000000101010101010101010101010101010111101000000000000010011100001010010111010111111101010101010101011100101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010110101010101010101010101010101010101010101010101010101010101010101111111111111111110111111001111111011111011111111111111111111011000001111111111111100000000000000010000110000001011111110111110000001000000000000000000000000000011000011000000110000001100000000000111111111000001111111010000001111110011111111000000101111111000001111111011111011111110000000101111001111111111111110111101111111111111111111111111111111111111111111111111111111111111111110011001100110011001100110011001100110011001100110011001100110011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111100001111000011110000111100001111000011110000111100001111000000001111111100000000111111110000000011111111000000001111111100000000000000001111111111111111000000000000000011111111111111110000111111111111111111111111111100000000000000000000000000000000111111111111111111111111111111110000000000000000000000000000000000001111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000
+				</data>
+			</log>
+		</trigger>
+	</instance>
+</chipwatcher>
