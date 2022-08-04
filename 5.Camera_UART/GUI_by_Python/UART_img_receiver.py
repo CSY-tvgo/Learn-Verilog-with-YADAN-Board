@@ -84,7 +84,7 @@ if __name__ == "__main__":
     inputerror = True  # will be turned to False when the input is correct
     selected = input("Please select the port which you want to open, ID:")
     if selected.isdigit():
-        if int(selected) <= len(selected):
+        if int(selected) <= len(port_list):
             selected_com = port_list[int(selected)]
             print("\n[{}] Opening: {}\n".format(datetime.now(), selected_com))
             inputerror = False
